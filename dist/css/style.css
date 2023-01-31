@@ -1,0 +1,263 @@
+@font-face {
+  font-family: SfProRegular;
+  font-display: swap;
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SfProSemiBold;
+  font-display: swap;
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/FontsFree-Net-SFProDisplay-Semibold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: SfProSemiBold;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+header #writeOnTop {
+  max-width: 265px;
+  width: 50vw;
+  height: auto;
+}
+header h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+@media (max-width: 1200px) {
+  header h1 {
+    font-size: 6.68vw;
+  }
+}
+header #headerWatch {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+main .functions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .functions h2 {
+  text-align: center;
+  width: 70vw;
+  padding: 0 20px;
+  font-size: 70px;
+  margin-bottom: 140px;
+}
+@media (max-width: 1400px) {
+  main .functions h2 {
+    font-size: 6.68vw;
+    width: 85vw;
+  }
+}
+main .functions #threeWatches {
+  width: 100vw;
+  height: auto;
+}
+main .functions .functions__waterProtection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 165px;
+}
+@media (max-width: 490px) {
+  main .functions .functions__waterProtection {
+    margin-top: 7vh;
+  }
+}
+main .functions .functions__waterProtection #waterWatch {
+  width: 68.15vw;
+  height: auto;
+}
+main .functions .functions__waterProtection h2 {
+  margin-bottom: 40px;
+}
+main #watchesFunc {
+  width: 99vw;
+}
+main .characteristics h2 {
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: 85px;
+}
+@media (max-width: 490px) {
+  main .characteristics h2 {
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+  }
+}
+@media (max-width: 1400px) {
+  main .characteristics h2 {
+    font-size: 6.68vw;
+  }
+}
+main .characteristics .collum__container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+}
+main .characteristics .collum__container .characteristics__leftCollum {
+  margin-right: 2.5vw;
+}
+main .characteristics .collum__container .characteristics__leftCollum ul li {
+  position: relative;
+  text-align: start;
+  padding: 22.5px 0px;
+  max-width: 260px;
+  font-size: 20px;
+  font-family: SfProRegular;
+}
+main .characteristics .collum__container .characteristics__leftCollum ul li:nth-child(1)::after {
+  width: 0;
+}
+main .characteristics .collum__container .characteristics__leftCollum ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  border-top: 1px solid #000;
+}
+@media (max-width: 600px) {
+  main .characteristics .collum__container .characteristics__leftCollum ul li {
+    font-size: 3vw;
+  }
+}
+main .characteristics .collum__container .characteristics__rightCollum {
+  margin-left: 2.5vw;
+}
+main .characteristics .collum__container .characteristics__rightCollum ul li {
+  position: relative;
+  text-align: start;
+  padding: 22.5px 0px;
+  max-width: 260px;
+  font-size: 20px;
+  font-family: SfProRegular;
+}
+main .characteristics .collum__container .characteristics__rightCollum ul li:nth-child(1)::after {
+  width: 0;
+}
+main .characteristics .collum__container .characteristics__rightCollum ul li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  border-top: 1px solid #000;
+}
+@media (max-width: 600px) {
+  main .characteristics .collum__container .characteristics__rightCollum ul li {
+    font-size: 3vw;
+  }
+}
+
+footer {
+  margin-top: 50px;
+}
+footer #footerImg {
+  width: 99vw;
+  height: auto;
+}
